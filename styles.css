@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background for contrast */
+    color: #333; /* Dark text for readability */
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('https://www.tclf.org/sites/default/files/styles/crop_2000x700/public/thumbnails/image/CA_Stanford_StanfordUniversity_courtesyWikimediaCommons_2011_005_Hero.jpg?itok=B8YAapxD'); /* Add your hero image path */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center; /* Center text for better alignment */
+    padding: 100px 20px; /* Add padding for spacing */
+}
+
+.hero h1 {
+    font-size: 3rem; /* Larger font size for impact */
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for depth */
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px; /* More space below the paragraph */
+}
+
+/* Benefits Section */
+.benefits {
+    background-color: #ffffff;
+    padding: 50px 20px; /* Add padding for spacing */
+    border-radius: 10px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.benefits h2 {
+    margin-bottom: 20px;
+    color: #007bff; /* Primary color for headings */
+}
+
+.benefits ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.benefits li {
+    padding: 15px 0;
+    font-size: 1.2rem;
+    border-bottom: 1px solid #eaeaea; /* Divider between items */
+}
+
+.benefits li:last-child {
+    border-bottom: none; /* Remove border from last item */
+}
+
+/* Top Countries Section */
+.countries {
+    background-color: #f8f9fa;
+    padding: 50px 20px; /* Add padding for spacing */
+}
+
+.countries h2 {
+    margin-bottom: 20px;
+    color: #28a745; /* Green color for headings */
+}
+
+.countries h4 {
+    text-align: center;
+    margin: 10px 0;
+    font-weight: bold; /* Bold for emphasis */
+}
+
+/* Admission Process Section */
+.admission {
+    background-color: #ffffff;
+    padding: 50px 20px; /* Add padding for spacing */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.admission h2 {
+    margin-bottom: 20px;
+    color: #dc3545; /* Red color for headings */
+}
+
+.admission ol {
+    padding-left: 20px;
+}
+
+/* Lead Form Section */
+.lead-form {
+    background-color: #f8f9fa;
+    padding: 50px 20px; /* Add padding for spacing */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.lead-form h2 {
+    margin-bottom: 20px;
+    color: #17a2b8; /* Teal color for headings */
+}
+
+.lead-form .form-control {
+    margin-bottom: 15px;
+    border-radius: 5px; /* Rounded corners for inputs */
+    border: 1px solid #ced4da; /* Light border */
+}
+
+/* Button Styles */
+.btn {
+    background-color: #007bff; /* Primary button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem; /* Adjust font size for smaller screens */
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .benefits li,
+    .admission li {
+        font-size: 1rem;
+    }
+
+    .countries h4 {
+        font-size: 1.2rem;
+    }
+}
